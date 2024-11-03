@@ -1,6 +1,8 @@
 # EOS - EVENT DRIVEN WITH RTOS
 FreeRTOS porting and event-driven development with FreeRTOS.
 
+![Untitledasdf a (1)](https://github.com/user-attachments/assets/dbe70fed-cf35-42cf-80cf-126fe4ce7fff)
+
 ### 1 - Benefits of Event-Driven Development
 Utilizing FreeRTOS as the foundation for real-time applications offers the advantage of creating dedicated tasks for various project functions. These tasks can efficiently manage interactions with peripherals, sensors, and other devices.
 
