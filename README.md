@@ -87,3 +87,8 @@ I (567) main_task: Returned from app_main()
 [00:00:02] [DEVICE] AC_LIFE_SYSTEM_CHECK
 
 ```
+### Reference
+| Topic | Link |
+| ------ | ------ |
+| Blog & Tutorial | https://epcb.vn/blogs/ak-embedded-software |
+| Where to buy KIT? | https://epcb.vn/products/smart-industrial-iot-gateway-epcb-iec-esp32-s3 |
