@@ -42,7 +42,7 @@ void eos_create_task(uint16_t task_id) {
 void eos_create_queue(uint16_t task_id) {
 	SYS_ASSERT(task_id < table_task_size);
 
-	table_task[task_id].queue_handle = xQueueCreate(EOS_TASK_QUEUE_LENGTH, sizeof(eos_task_t));
+	table_task[task_id].queue_handle = xQueueCreate(EOS_TASK_QUEUE_LENGTH, sizeof(eos_msg_t));
 	SYS_ASSERT(table_task[task_id].queue_handle != NULL);
 	EOS_LOG_INFO(TAG, "create queue task name: %s, queue: %p", table_task[task_id].name, table_task[task_id].queue_handle);
 }
